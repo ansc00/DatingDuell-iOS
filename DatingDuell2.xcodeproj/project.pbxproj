@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0B8C3C267110A2001BFBD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A0B8C3B267110A2001BFBD7 /* GoogleService-Info.plist */; };
+		5A0B8C4126720B2A001BFBD7 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C4026720B2A001BFBD7 /* K.swift */; };
+		5A0B8C4426720B74001BFBD7 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C4326720B74001BFBD7 /* Gradient.swift */; };
+		5A0B8C4626720B86001BFBD7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C4526720B86001BFBD7 /* Colors.swift */; };
+		5A0B8C4A26720BA3001BFBD7 /* RoundedCornerViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C4926720BA3001BFBD7 /* RoundedCornerViewElement.swift */; };
+		5A0B8C4C26720BB1001BFBD7 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C4B26720BB1001BFBD7 /* Database.swift */; };
+		5A0B8C4E26720BBB001BFBD7 /* CheckRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C4D26720BBB001BFBD7 /* CheckRegex.swift */; };
+		5A0B8C5026720BCB001BFBD7 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C4F26720BCB001BFBD7 /* RoundedButton.swift */; };
+		5A0B8C5226720BDB001BFBD7 /* RoundedIconTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C5126720BDB001BFBD7 /* RoundedIconTextButton.swift */; };
+		5A0B8C5426720BE5001BFBD7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C5326720BE5001BFBD7 /* User.swift */; };
+		5A0B8C5626720BFB001BFBD7 /* UserBaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C5526720BFB001BFBD7 /* UserBaseData.swift */; };
+		5A0B8C5826720C0F001BFBD7 /* BaseDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C5726720C0F001BFBD7 /* BaseDataViewController.swift */; };
+		5A0B8C5A26720C17001BFBD7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C5926720C17001BFBD7 /* LoginViewController.swift */; };
+		5A0B8C5C26720C1E001BFBD7 /* DuellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C5B26720C1E001BFBD7 /* DuellViewController.swift */; };
+		5A0B8C5E26720C27001BFBD7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C5D26720C27001BFBD7 /* ProfileViewController.swift */; };
+		5A0B8C6426720EBA001BFBD7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A0B8C6626720EBA001BFBD7 /* Localizable.strings */; };
+		5A0B8C69267229B6001BFBD7 /* MyActivityInidicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C68267229B6001BFBD7 /* MyActivityInidicator.swift */; };
+		5A0B8C6B2672532F001BFBD7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B8C6A2672532F001BFBD7 /* SearchViewController.swift */; };
+		5A6AE28B26710AD800E51DF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AE28A26710AD800E51DF7 /* AppDelegate.swift */; };
+		5A6AE28D26710AD800E51DF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AE28C26710AD800E51DF7 /* SceneDelegate.swift */; };
+		5A6AE28F26710AD800E51DF7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AE28E26710AD800E51DF7 /* StartViewController.swift */; };
+		5A6AE29226710AD800E51DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AE29026710AD800E51DF7 /* Main.storyboard */; };
+		5A6AE29526710AD800E51DF7 /* DatingDuell2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AE29326710AD800E51DF7 /* DatingDuell2.xcdatamodeld */; };
+		5A6AE29726710AD800E51DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AE29626710AD800E51DF7 /* Assets.xcassets */; };
+		5A6AE29A26710AD800E51DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AE29826710AD800E51DF7 /* LaunchScreen.storyboard */; };
+		5A78D00026734E8B001667D8 /* MyAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78CFFF26734E8B001667D8 /* MyAnimations.swift */; };
+		5A78D002267399DF001667D8 /* UserDuellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78D001267399DF001667D8 /* UserDuellView.swift */; };
+		5A78D00426739A0A001667D8 /* UserDuellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A78D00326739A0A001667D8 /* UserDuellView.xib */; };
+		5A78D0062673AF52001667D8 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78D0052673AF52001667D8 /* Calculate.swift */; };
+		5A78D00A2677933B001667D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78D0092677933B001667D8 /* Message.swift */; };
+		5A78D0162678ADAD001667D8 /* TypeNewMessageInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78D0152678ADAD001667D8 /* TypeNewMessageInViewController.swift */; };
+		5A78D01E267904C9001667D8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78D01D267904C9001667D8 /* ChatViewController.swift */; };
+		5A78D0242679F390001667D8 /* ChatMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78D0232679F390001667D8 /* ChatMessageViewController.swift */; };
+		5A78D0272679FDC0001667D8 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78D0252679FDC0001667D8 /* MessageTableViewCell.swift */; };
+		5A78D0282679FDC0001667D8 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A78D0262679FDC0001667D8 /* MessageTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A0B8C3B267110A2001BFBD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5A0B8C4026720B2A001BFBD7 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		5A0B8C4326720B74001BFBD7 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		5A0B8C4526720B86001BFBD7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5A0B8C4926720BA3001BFBD7 /* RoundedCornerViewElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerViewElement.swift; sourceTree = "<group>"; };
+		5A0B8C4B26720BB1001BFBD7 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		5A0B8C4D26720BBB001BFBD7 /* CheckRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckRegex.swift; sourceTree = "<group>"; };
+		5A0B8C4F26720BCB001BFBD7 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		5A0B8C5126720BDB001BFBD7 /* RoundedIconTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedIconTextButton.swift; sourceTree = "<group>"; };
+		5A0B8C5326720BE5001BFBD7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5A0B8C5526720BFB001BFBD7 /* UserBaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBaseData.swift; sourceTree = "<group>"; };
+		5A0B8C5726720C0F001BFBD7 /* BaseDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataViewController.swift; sourceTree = "<group>"; };
+		5A0B8C5926720C17001BFBD7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5A0B8C5B26720C1E001BFBD7 /* DuellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuellViewController.swift; sourceTree = "<group>"; };
+		5A0B8C5D26720C27001BFBD7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5A0B8C6026720DE3001BFBD7 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		5A0B8C6126720DE6001BFBD7 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5A0B8C6526720EBA001BFBD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5A0B8C6726720EC8001BFBD7 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5A0B8C68267229B6001BFBD7 /* MyActivityInidicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityInidicator.swift; sourceTree = "<group>"; };
+		5A0B8C6A2672532F001BFBD7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5A6AE28726710AD800E51DF7 /* DatingDuell2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingDuell2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6AE28A26710AD800E51DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A6AE28C26710AD800E51DF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A6AE28E26710AD800E51DF7 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		5A6AE29126710AD800E51DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A6AE29426710AD800E51DF7 /* DatingDuell2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DatingDuell2.xcdatamodel; sourceTree = "<group>"; };
+		5A6AE29626710AD800E51DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A6AE29926710AD800E51DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A6AE29B26710AD800E51DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A78CFFF26734E8B001667D8 /* MyAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnimations.swift; sourceTree = "<group>"; };
+		5A78D001267399DF001667D8 /* UserDuellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDuellView.swift; sourceTree = "<group>"; };
+		5A78D00326739A0A001667D8 /* UserDuellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDuellView.xib; sourceTree = "<group>"; };
+		5A78D0052673AF52001667D8 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		5A78D0092677933B001667D8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5A78D0152678ADAD001667D8 /* TypeNewMessageInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeNewMessageInViewController.swift; sourceTree = "<group>"; };
+		5A78D01D267904C9001667D8 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		5A78D0232679F390001667D8 /* ChatMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageViewController.swift; sourceTree = "<group>"; };
+		5A78D0252679FDC0001667D8 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		5A78D0262679FDC0001667D8 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		5DC89B453207A52FB76FE966 /* Pods-DatingDuell2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingDuell2.release.xcconfig"; path = "Target Support Files/Pods-DatingDuell2/Pods-DatingDuell2.release.xcconfig"; sourceTree = "<group>"; };
+		95C5FEAE08784571708234CD /* Pods-DatingDuell2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingDuell2.debug.xcconfig"; path = "Target Support Files/Pods-DatingDuell2/Pods-DatingDuell2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A6AE28426710AD800E51DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ACA29E433670AF5AEA5B00C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A0B8C3D26720A80001BFBD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A78D001267399DF001667D8 /* UserDuellView.swift */,
+				5A78D0252679FDC0001667D8 /* MessageTableViewCell.swift */,
+				5A78D0262679FDC0001667D8 /* MessageTableViewCell.xib */,
+				5A6AE29026710AD800E51DF7 /* Main.storyboard */,
+				5A78D00326739A0A001667D8 /* UserDuellView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A0B8C3E26720AB2001BFBD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A0B8C5326720BE5001BFBD7 /* User.swift */,
+				5A0B8C5526720BFB001BFBD7 /* UserBaseData.swift */,
+				5A6AE29326710AD800E51DF7 /* DatingDuell2.xcdatamodeld */,
+				5A78D0092677933B001667D8 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A0B8C3F26720AC9001BFBD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A0B8C5726720C0F001BFBD7 /* BaseDataViewController.swift */,
+				5A0B8C5926720C17001BFBD7 /* LoginViewController.swift */,
+				5A0B8C5B26720C1E001BFBD7 /* DuellViewController.swift */,
+				5A0B8C5D26720C27001BFBD7 /* ProfileViewController.swift */,
+				5A6AE28E26710AD800E51DF7 /* StartViewController.swift */,
+				5A0B8C6A2672532F001BFBD7 /* SearchViewController.swift */,
+				5A78D0152678ADAD001667D8 /* TypeNewMessageInViewController.swift */,
+				5A78D01D267904C9001667D8 /* ChatViewController.swift */,
+				5A78D0232679F390001667D8 /* ChatMessageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A0B8C4226720B39001BFBD7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5A0B8C4026720B2A001BFBD7 /* K.swift */,
+				5A0B8C68267229B6001BFBD7 /* MyActivityInidicator.swift */,
+				5A0B8C4326720B74001BFBD7 /* Gradient.swift */,
+				5A0B8C4526720B86001BFBD7 /* Colors.swift */,
+				5A0B8C4926720BA3001BFBD7 /* RoundedCornerViewElement.swift */,
+				5A0B8C4B26720BB1001BFBD7 /* Database.swift */,
+				5A0B8C4D26720BBB001BFBD7 /* CheckRegex.swift */,
+				5A0B8C5F26720CE5001BFBD7 /* Buttons */,
+				5A0B8C6626720EBA001BFBD7 /* Localizable.strings */,
+				5A78CFFF26734E8B001667D8 /* MyAnimations.swift */,
+				5A78D0052673AF52001667D8 /* Calculate.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5A0B8C5F26720CE5001BFBD7 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5A0B8C4F26720BCB001BFBD7 /* RoundedButton.swift */,
+				5A0B8C5126720BDB001BFBD7 /* RoundedIconTextButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		5A6AE27E26710AD800E51DF7 = {
+			isa = PBXGroup;
+			children = (
+				5A6AE28926710AD800E51DF7 /* DatingDuell2 */,
+				5A6AE28826710AD800E51DF7 /* Products */,
+				83C1744E5450D82B2DBD4518 /* Pods */,
+				4ACA29E433670AF5AEA5B00C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A6AE28826710AD800E51DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6AE28726710AD800E51DF7 /* DatingDuell2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A6AE28926710AD800E51DF7 /* DatingDuell2 */ = {
+			isa = PBXGroup;
+			children = (
+				5A6AE28A26710AD800E51DF7 /* AppDelegate.swift */,
+				5A6AE28C26710AD800E51DF7 /* SceneDelegate.swift */,
+				5A0B8C4226720B39001BFBD7 /* Util */,
+				5A0B8C3E26720AB2001BFBD7 /* Model */,
+				5A0B8C3D26720A80001BFBD7 /* View */,
+				5A0B8C3F26720AC9001BFBD7 /* Controller */,
+				5A6AE29626710AD800E51DF7 /* Assets.xcassets */,
+				5A6AE29B26710AD800E51DF7 /* Info.plist */,
+				5A0B8C3B267110A2001BFBD7 /* GoogleService-Info.plist */,
+				5A6AE29826710AD800E51DF7 /* LaunchScreen.storyboard */,
+			);
+			path = DatingDuell2;
+			sourceTree = "<group>";
+		};
+		83C1744E5450D82B2DBD4518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95C5FEAE08784571708234CD /* Pods-DatingDuell2.debug.xcconfig */,
+				5DC89B453207A52FB76FE966 /* Pods-DatingDuell2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A6AE28626710AD800E51DF7 /* DatingDuell2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6AE29E26710AD800E51DF7 /* Build configuration list for PBXNativeTarget "DatingDuell2" */;
+			buildPhases = (
+				C930ED24E2993B57B7B384D4 /* [CP] Check Pods Manifest.lock */,
+				5A6AE28326710AD800E51DF7 /* Sources */,
+				5A6AE28426710AD800E51DF7 /* Frameworks */,
+				5A6AE28526710AD800E51DF7 /* Resources */,
+				AC12A5F5C093522382284A01 /* [CP] Embed Pods Frameworks */,
+				C6E90FF46F437EE8772A7A34 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatingDuell2;
+			productName = DatingDuell2;
+			productReference = 5A6AE28726710AD800E51DF7 /* DatingDuell2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A6AE27F26710AD800E51DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5A6AE28626710AD800E51DF7 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 5A6AE28226710AD800E51DF7 /* Build configuration list for PBXProject "DatingDuell2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 5A6AE27E26710AD800E51DF7;
+			productRefGroup = 5A6AE28826710AD800E51DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A6AE28626710AD800E51DF7 /* DatingDuell2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A6AE28526710AD800E51DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A78D00426739A0A001667D8 /* UserDuellView.xib in Resources */,
+				5A0B8C6426720EBA001BFBD7 /* Localizable.strings in Resources */,
+				5A6AE29A26710AD800E51DF7 /* LaunchScreen.storyboard in Resources */,
+				5A6AE29726710AD800E51DF7 /* Assets.xcassets in Resources */,
+				5A0B8C3C267110A2001BFBD7 /* GoogleService-Info.plist in Resources */,
+				5A78D0282679FDC0001667D8 /* MessageTableViewCell.xib in Resources */,
+				5A6AE29226710AD800E51DF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC12A5F5C093522382284A01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatingDuell2/Pods-DatingDuell2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatingDuell2/Pods-DatingDuell2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DatingDuell2/Pods-DatingDuell2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E90FF46F437EE8772A7A34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatingDuell2/Pods-DatingDuell2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatingDuell2/Pods-DatingDuell2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DatingDuell2/Pods-DatingDuell2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C930ED24E2993B57B7B384D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatingDuell2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A6AE28326710AD800E51DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A78D0062673AF52001667D8 /* Calculate.swift in Sources */,
+				5A6AE29526710AD800E51DF7 /* DatingDuell2.xcdatamodeld in Sources */,
+				5A0B8C4126720B2A001BFBD7 /* K.swift in Sources */,
+				5A78D0242679F390001667D8 /* ChatMessageViewController.swift in Sources */,
+				5A78D0272679FDC0001667D8 /* MessageTableViewCell.swift in Sources */,
+				5A6AE28F26710AD800E51DF7 /* StartViewController.swift in Sources */,
+				5A0B8C5226720BDB001BFBD7 /* RoundedIconTextButton.swift in Sources */,
+				5A78D0162678ADAD001667D8 /* TypeNewMessageInViewController.swift in Sources */,
+				5A0B8C4A26720BA3001BFBD7 /* RoundedCornerViewElement.swift in Sources */,
+				5A0B8C4626720B86001BFBD7 /* Colors.swift in Sources */,
+				5A0B8C69267229B6001BFBD7 /* MyActivityInidicator.swift in Sources */,
+				5A0B8C5426720BE5001BFBD7 /* User.swift in Sources */,
+				5A78D00A2677933B001667D8 /* Message.swift in Sources */,
+				5A0B8C4E26720BBB001BFBD7 /* CheckRegex.swift in Sources */,
+				5A0B8C5E26720C27001BFBD7 /* ProfileViewController.swift in Sources */,
+				5A0B8C5C26720C1E001BFBD7 /* DuellViewController.swift in Sources */,
+				5A0B8C5026720BCB001BFBD7 /* RoundedButton.swift in Sources */,
+				5A6AE28B26710AD800E51DF7 /* AppDelegate.swift in Sources */,
+				5A78D00026734E8B001667D8 /* MyAnimations.swift in Sources */,
+				5A0B8C5826720C0F001BFBD7 /* BaseDataViewController.swift in Sources */,
+				5A0B8C6B2672532F001BFBD7 /* SearchViewController.swift in Sources */,
+				5A6AE28D26710AD800E51DF7 /* SceneDelegate.swift in Sources */,
+				5A0B8C5A26720C17001BFBD7 /* LoginViewController.swift in Sources */,
+				5A0B8C4C26720BB1001BFBD7 /* Database.swift in Sources */,
+				5A78D002267399DF001667D8 /* UserDuellView.swift in Sources */,
+				5A0B8C5626720BFB001BFBD7 /* UserBaseData.swift in Sources */,
+				5A78D01E267904C9001667D8 /* ChatViewController.swift in Sources */,
+				5A0B8C4426720B74001BFBD7 /* Gradient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A0B8C6626720EBA001BFBD7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A0B8C6526720EBA001BFBD7 /* en */,
+				5A0B8C6726720EC8001BFBD7 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5A6AE29026710AD800E51DF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6AE29126710AD800E51DF7 /* Base */,
+				5A0B8C6026720DE3001BFBD7 /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A6AE29826710AD800E51DF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6AE29926710AD800E51DF7 /* Base */,
+				5A0B8C6126720DE6001BFBD7 /* de */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A6AE29C26710AD800E51DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "x86_64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 arm64e armv7";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A6AE29D26710AD800E51DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "x86_64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 arm64e armv7";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A6AE29F26710AD800E51DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C5FEAE08784571708234CD /* Pods-DatingDuell2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6S8BP47U;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "x86_64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 arm64e armv7";
+				INFOPLIST_FILE = DatingDuell2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.myApplication.DatingDuell2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A6AE2A026710AD800E51DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC89B453207A52FB76FE966 /* Pods-DatingDuell2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6S8BP47U;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "x86_64 i386";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 arm64e armv7";
+				INFOPLIST_FILE = DatingDuell2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.myApplication.DatingDuell2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A6AE28226710AD800E51DF7 /* Build configuration list for PBXProject "DatingDuell2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6AE29C26710AD800E51DF7 /* Debug */,
+				5A6AE29D26710AD800E51DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6AE29E26710AD800E51DF7 /* Build configuration list for PBXNativeTarget "DatingDuell2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6AE29F26710AD800E51DF7 /* Debug */,
+				5A6AE2A026710AD800E51DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A6AE29326710AD800E51DF7 /* DatingDuell2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A6AE29426710AD800E51DF7 /* DatingDuell2.xcdatamodel */,
+			);
+			currentVersion = 5A6AE29426710AD800E51DF7 /* DatingDuell2.xcdatamodel */;
+			path = DatingDuell2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A6AE27F26710AD800E51DF7 /* Project object */;
+}

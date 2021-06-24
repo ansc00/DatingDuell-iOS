@@ -1,0 +1,17 @@
+/*
+  Localizable.strings
+  DatingDuell
+
+  Created by tk on 20.05.21.
+  
+*/
+
+
+"LoginViewController.Action.SignUp" = "Sign-Up with E-Mail";//set programmaticly
+//"6Sd-1C-gsl.normalTitle" = "Sign-Up"; //set in storyboard
+"LoginViewController.Action.SwitchToLogin" = "Switch to Login with E-Mail";
+"LoginViewController.Action.SignInWithApple" = "Sign up with Apple";
+"LoginViewController.Action.SignInWithGmail" = "Sign up with Google";
+"LoginViewController.Action.SignInWithFacebook" = "Sign up with Facebook";
+
+"Calculate.prozentualLikes" = "liked";

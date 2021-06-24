@@ -1,0 +1,57 @@
+
+/* Class = "UINavigationItem"; title = "title"; ObjectID = "5fq-qW-dl9"; */
+"5fq-qW-dl9.title" = "title";
+
+/* Class = "UIButton"; normalTitle = "Sign-Up"; ObjectID = "6Sd-1C-gsl"; */
+"6Sd-1C-gsl.normalTitle" = "Sign-Up";
+
+/* Class = "UIButton"; normalTitle = "Switch to Login with E-Mail"; ObjectID = "BKx-Jt-8gw"; */
+"BKx-Jt-8gw.normalTitle" = "Switch to Login with E-Mail";
+
+/* Class = "UINavigationItem"; title = "t"; ObjectID = "FOO-lG-Zhg"; */
+"FOO-lG-Zhg.title" = "t";
+
+/* Class = "UILabel"; text = "DatingDuell"; ObjectID = "GxE-jS-pXv"; */
+"GxE-jS-pXv.text" = "DatingDuell";
+
+/* Class = "UILabel"; text = "Already registered?"; ObjectID = "I3z-mU-HYj"; */
+"I3z-mU-HYj.text" = "Already registered?";
+
+/* Class = "UITextField"; placeholder = "E-Mail"; ObjectID = "LfQ-pq-YSg"; */
+"LfQ-pq-YSg.placeholder" = "E-Mail";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "Mfo-gz-1gq"; */
+"Mfo-gz-1gq.normalTitle" = "Login";
+
+/* Class = "UIBarButtonItem"; title = "Sign out"; ObjectID = "YrL-Mx-lYw"; */
+"YrL-Mx-lYw.title" = "Sign out";
+
+/* Class = "UILabel"; text = "DatingDuell"; ObjectID = "aKm-Mt-TkD"; */
+"aKm-Mt-TkD.text" = "DatingDuell";
+
+/* Class = "UIButton"; normalTitle = "<"; ObjectID = "cip-9R-wnr"; */
+"cip-9R-wnr.normalTitle" = "<";
+
+/* Class = "UINavigationItem"; title = "Duell"; ObjectID = "dvF-M5-A9D"; */
+"dvF-M5-A9D.title" = "Duell";
+
+/* Class = "UIBarButtonItem"; title = "< back"; ObjectID = "he8-9l-gvO"; */
+"he8-9l-gvO.title" = "< back";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "kcg-CT-84t"; */
+"kcg-CT-84t.placeholder" = "Password";
+
+/* Class = "UINavigationItem"; title = "Chat"; ObjectID = "m6a-3E-c22"; */
+"m6a-3E-c22.title" = "Chat";
+
+/* Class = "UINavigationItem"; title = "Search"; ObjectID = "rNT-Mk-Hxj"; */
+"rNT-Mk-Hxj.title" = "Search";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "u5m-cU-fzu"; */
+"u5m-cU-fzu.text" = "Or";
+
+/* Class = "UIButton"; normalTitle = ">"; ObjectID = "v4s-hi-boF"; */
+"v4s-hi-boF.normalTitle" = ">";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "x7F-Gg-ipX"; */
+"x7F-Gg-ipX.title" = "Profile";

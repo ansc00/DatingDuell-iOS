@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserDuellView" customModule="DatingDuell2" customModuleProvider="target">
+            <connections>
+                <outlet property="ageLabel" destination="L38-oO-ERi" id="sdG-0g-xyj"/>
+                <outlet property="distanceLabel" destination="lB6-GT-f73" id="kmk-IY-zUo"/>
+                <outlet property="imageView" destination="hG6-cH-R73" id="xED-ZY-odE"/>
+                <outlet property="nameLabel" destination="ruw-CC-SAg" id="Z3k-FZ-HqJ"/>
+                <outlet property="procentualLikesLabel" destination="03Z-tk-ihX" id="vnz-jp-Z6W"/>
+                <outlet property="sendMessageButton" destination="qAX-1Z-MLr" id="lOJ-Q9-Da8"/>
+                <outlet property="sendMessageIV" destination="V0c-1V-x3H" id="1nR-f9-Tw3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="7" id="mRQ-HU-LTm">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="221"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hG6-cH-R73">
+                    <rect key="frame" x="0.0" y="0.0" width="203.5" height="223"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xGe-6Z-h0o">
+                    <rect key="frame" x="210.5" y="0.0" width="203.5" height="223"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTB-VA-YVW">
+                            <rect key="frame" x="77" y="0.0" width="50" height="23.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ruw-CC-SAg">
+                            <rect key="frame" x="80.5" y="28.5" width="42.5" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alter" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L38-oO-ERi">
+                            <rect key="frame" x="84.5" y="56.5" width="34" height="23.5"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="entfernung" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lB6-GT-f73">
+                            <rect key="frame" x="59.5" y="85" width="84" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="von dir entfernt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xg0-44-Hgw">
+                            <rect key="frame" x="43.5" y="114" width="117" height="23.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="prozent likes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="03Z-tk-ihX">
+                            <rect key="frame" x="53.5" y="141.5" width="96.5" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cfd-wu-H2R">
+                            <rect key="frame" x="39" y="171" width="126" height="23.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="V0c-1V-x3H">
+                                    <rect key="frame" x="0.0" y="0.5" width="22" height="23"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAX-1Z-MLr">
+                                    <rect key="frame" x="27" y="0.0" width="99" height="23.5"/>
+                                    <state key="normal" title="send message"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b37-JW-LJ3">
+                            <rect key="frame" x="77" y="199.5" width="50" height="23.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="8eE-Yx-tNx"/>
+            <constraints>
+                <constraint firstItem="hG6-cH-R73" firstAttribute="leading" secondItem="8eE-Yx-tNx" secondAttribute="leading" id="0y2-ha-HEH"/>
+                <constraint firstItem="xGe-6Z-h0o" firstAttribute="top" secondItem="mRQ-HU-LTm" secondAttribute="top" id="JTP-Vs-krL"/>
+                <constraint firstItem="8eE-Yx-tNx" firstAttribute="bottom" secondItem="hG6-cH-R73" secondAttribute="bottom" id="UbK-db-9GA"/>
+                <constraint firstItem="xGe-6Z-h0o" firstAttribute="trailing" secondItem="8eE-Yx-tNx" secondAttribute="trailing" id="Ypv-2M-LuX"/>
+                <constraint firstItem="8eE-Yx-tNx" firstAttribute="bottom" secondItem="xGe-6Z-h0o" secondAttribute="bottom" id="blc-4N-xD2"/>
+                <constraint firstItem="hG6-cH-R73" firstAttribute="top" secondItem="mRQ-HU-LTm" secondAttribute="top" id="yMN-1g-0mR"/>
+            </constraints>
+            <point key="canvasLocation" x="-109.42028985507247" y="-290.29017857142856"/>
+        </stackView>
+    </objects>
+    <resources>
+        <image name="message" catalog="system" width="128" height="113"/>
+    </resources>
+</document>
