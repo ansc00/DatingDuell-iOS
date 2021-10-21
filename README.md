@@ -21,14 +21,14 @@ Im Profil Bereich kann sich der Nutzer seine Daten anzeigen lassen und spÃ¤ter Ã
  
  Neuere 2.0 Version:
  <p align="left">
-  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Duel.PNG" width="200" height="400" >
-  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/SelectedDuel.PNG" width="200" height="400" >
-  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Profil.PNG" width="200" height="400" >
+  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Duel.png" width="200" height="400" >
+  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/SelectedDuel.png" width="200" height="400" >
+  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Profil.png" width="200" height="400" >
 </p>
 <p align="left">
- <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Feedback.PNG" width="200" height="400" >
-  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/TopList.PNG" width="200" height="400" >
-  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Chat.PNG" width="200" height="400" >
+ <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Feedback.png" width="200" height="400" >
+  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/TopList.png" width="200" height="400" >
+  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Chat.png" width="200" height="400" >
 </p>
  
  
