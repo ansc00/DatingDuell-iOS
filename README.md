@@ -19,6 +19,20 @@ Im Profil Bereich kann sich der Nutzer seine Daten anzeigen lassen und sp√§ter √
  
  Ein paar Bilder:
  
+ Neuere 2.0 Version:
+ <p align="left">
+  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Duel.PNG" width="200" height="400" >
+  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/SelectedDuel.PNG" width="200" height="400" >
+  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Profil.PNG" width="200" height="400" >
+</p>
+<p align="left">
+ <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Feedback.PNG" width="200" height="400" >
+  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/TopList.PNG" width="200" height="400" >
+  <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/Chat.PNG" width="200" height="400" >
+</p>
+ 
+ 
+ Alte 1.0 Version: 
  Registrieren/ Login
 <p align="left">
   <img src="https://github.com/ansc00/DatingDuell-iOS/blob/main/img/IMG_0042.PNG" width="200" height="400" >
